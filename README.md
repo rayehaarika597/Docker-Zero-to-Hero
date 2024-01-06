@@ -33,7 +33,21 @@ Containers and virtual machines are both technologies used to isolate applicatio
 
 ## Why are containers light weight ?
 
-Containers are lightweight because they use a technology called containerization, which allows them to share the host operating system's kernel and libraries, while still providing isolation for the application and its dependencies. This results in a smaller footprint compared to traditional virtual machines, as the containers do not need to include a full operating system. Additionally, Docker containers are designed to be minimal, only including what is necessary for the application to run, further reducing their size.
+Containers are lightweight because they use a technology called containerization, which allows them to share the host operating system's kernel and libraries, while still providing isolation for the application and its dependencies.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SMALL EXAMPLEs TO UNDERSTAND THE ABOVE TWO SENTENCES
+EXAMPLE 1 ------- Suppose we have a big playground where there are 5 groups of kids. Each group wishes to play a different game on the same playground. So all 5 groups can use 5 different places in the same playground and play accordingly without disturbing anyone.
+EXAMPLE 2 ------- Simplified Explanation (like I'm 5):
+"Containers are like magical toy boxes that let different toys play together nicely on the same playground without causing any trouble. Each toy has its own box, but they all share some parts of the playground, like the grass and the sky."
+
+Original Definition:
+"Containers are lightweight because they use a technology called containerization, which allows them to share the host operating system's kernel and libraries while still providing isolation for the application and its dependencies."
+
+In the simplified version, we used the analogy of toys in boxes and a playground to represent containers sharing the operating system's resources while maintaining isolation for applications. It breaks down the complex technical details into a more relatable and easy-to-understand scenario for a five-year-old.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+This results in a smaller footprint compared to traditional virtual machines, as the containers do not need to include a full operating system. Additionally, Docker containers are designed to be minimal, only including what is necessary for the application to run, further reducing their size.
 
 Let's try to understand this with an example:
 
